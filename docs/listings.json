@@ -2,8 +2,14 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/posts/daily-routine/index.html",
+      "/posts/vierdaagse/index.html",
+      "/posts/euro/index.html",
+      "/posts/nijmegen/index.html",
+      "/posts/development/index.html",
+      "/posts/kropman/index.html",
+      "/posts/my-accommodation/index.html",
+      "/posts/from-france-to-netherlands/index.html"
     ]
   }
 ]

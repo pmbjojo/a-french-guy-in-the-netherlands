@@ -1,30 +1,51 @@
 [
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "posts/vierdaagse/index.html",
+    "href": "posts/vierdaagse/index.html",
+    "title": "Vierdaagse",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "https://www.4daagse.nl/en https://www.vierdaagsefeesten.nl/en/"
+  },
+  {
+    "objectID": "posts/my-accommodation/index.html",
+    "href": "posts/my-accommodation/index.html",
+    "title": "My accommodation",
+    "section": "",
+    "text": "Hello folks, today I will introduce you to my accommodation. First of all, I would like to thank Jan, my host for his warm welcome. I was very well received and I already feel at home. I met Jan in France, he is a friend of Christine, a close family member. He spent the beginning of the summer in Bretteville, the village where my parents live. We were able to organize a meeting to get to know each other. He was the one who recommended me to one of his friends for my internship at Kropman. He also offered me to stay at his house during this period. Jan is in France until mid-July, so I am alone in the house for the moment.\n\n\nThe house is part of the village of Vianen. The village has less than 2000 inhabitants. It is a very quiet and peaceful place. It is a typical Dutch house, with a sloping roof and red bricks. It is very spacious and bright. I have a bedroom with a double bed. The bathroom has a bathtub and a shower. The kitchen is large and well equipped. The living room is warm with a sofa and a television. There is a garden with a terrace where I can relax after work. It is a rare opportunity to be able to enjoy such comfort during my internship.\n\n\n\n\n\n\nThe house is about a 20-minute drive from my workplace. I have to take the highway to get there. It is a moderately busy road at the moment because it is also the summer holiday period in the Netherlands. Usually there are no traffic jams in the morning but in the evening it is a bit crowded. I came to the Netherlands by car so that I don’t have to take public transport to get to work. This saves me time and I don’t have to be tied to timetables.\nI am very happy with my accommodation and I feel very good here. Thank you for reading and I’ll see you soon for new articles."
+  },
+  {
+    "objectID": "posts/from-france-to-netherlands/index.html",
+    "href": "posts/from-france-to-netherlands/index.html",
+    "title": "From France to Netherlands",
+    "section": "",
+    "text": "Hello everyone, today I want to share with you the story of my departure from France and my one-day car trip to the Netherlands.\nFor those who don’t know me, I invite you to consult my profile.\nI just finished what may be the last period of classes of my life last Friday. No time to rest since D-Day has arrived. This morning I set off for the Netherlands.\n\n\n\n\nI left around 10:30 and my journey lasted almost 10 hours. The first part of the trip went smoothly. The Normandy roads are familiar. I stopped in the Rouen region to eat in a fast food restaurant. Rouen is a big city and its industrial outskirts are not really pleasant.\nI quickly got back on the road towards Lille. I was not used to the architecture of the north and seeing so many red brick buildings surprised me a little. It is an architecture that I find very pretty and that gives a certain charm to the region.\n\n\n\n\n\n\nCrossing the French-Belgian border, the road signs changed, the names of the cities became different, and I really realized that I am leaving France for good. On this part of the journey, I was listening to the radio to follow the results of the legislative elections in France. It was complicated because most of the radios were in Flemish. I did not think that Belgium was so linguistically divided.\nCrossing Belgium is an experience in itself. Belgian highways are known for their variable quality. Finally, I reached the Dutch border. The transition is subtle but noticeable: the roads are impeccable, the cycle paths are omnipresent, and the organization of the cities and the countryside is impressive.\nThe last part of the journey took me to my final destination, the place where I will live and work for the next 3 months. Fatigue is making itself felt. When I arrived around 9 pm, Kiki, the daughter of the owner of the accommodation, was there to welcome me. She was very kind and welcoming and she showed me around.\nI’ll save this part of the trip for future posts. Thank you for following me in this first chapter of my adventure."
+  },
+  {
+    "objectID": "posts/development/index.html",
+    "href": "posts/development/index.html",
+    "title": "Development and project management",
+    "section": "",
+    "text": "The team is responsible for developing and maintaining the softwares used by the company’s employees. The softwares are used to manage the company’s projects, to manage the maintenance of the installations and to manage the company’s resources in addition to the Enterprise Resource Planning (ERP) features.\nThe team uses the Agile methodology to manage the development of the softwares. Each developer maintain it’s own backlog and the team meets every end of the day to discuss the progress of the tasks and to plan the work for next day.\nThe team has a great CI/CD pipeline that allows to deploy the softwares quickly and safely. The team uses Azure DevOps to manage the source code and the pipelines.\nAll the applications are developed in C# with the .NET framework. The team uses the the ASP.NET framework with Blazor to develop the web applications.\n\nProject example : contact app"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "A French guy in the Netherlands",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJul 22, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 19, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Daily routine\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 28, 2024\n\n\nJoshua JOURDAM\n\n\n\n\n\n\n\n\n\n\n\n\nVierdaagse\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 21, 2024\n\n\nJoshua JOURDAM\n\n\n\n\n\n\n\n\n\n\n\n\nEuropean Football Championship\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 14, 2024\n\n\nJoshua JOURDAM\n\n\n\n\n\n\n\n\n\n\n\n\nThe city of Nijmegen\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 13, 2024\n\n\nJoshua JOURDAM\n\n\n\n\n\n\n\n\n\n\n\n\nDevelopment and project management\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJun 30, 2024\n\n\nJoshua JOURDAM\n\n\n\n\n\n\n\n\n\n\n\n\nKropman and the software development team\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJun 23, 2024\n\n\nJoshua JOURDAM\n\n\n\n\n\n\n\n\n\n\n\n\nMy accommodation\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJun 15, 2024\n\n\nJoshua JOURDAM\n\n\n\n\n\n\n\n\n\n\n\n\nFrom France to Netherlands\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJun 9, 2024\n\n\nJoshua JOURDAM\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this blog"
+    "text": "Hello, my name is Joshua, I am 23 years old and I am an apprentice engineer at the ESEO in Angers. I finished my 3 years of collaboration with the company SDEL Contrôle Commande in May to do my internship abroad. The aim of this blog is to allow you to follow my experience for 3 months in the Netherlands.\nI joined the software development team of the Kropman company for the summer period. This blog will allow me to share my feelings as well as my professional and extra-professional experiences. Thank you for your support and enjoy your discovery."
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "posts/kropman/index.html",
+    "href": "posts/kropman/index.html",
+    "title": "Kropman and the software development team",
     "section": "",
-    "text": "This is a post with executable code."
+    "text": "Kropman is a company that specializes in the installation and maintenance of technical installations in buildings. The company is located in Nijmegen, a city in the east of the Netherlands. The company has several branches in the Netherlands and employs more than 800 people. Kropman was acquired by the French group Eiffage in 2018.\nhttps://www.eiffage.com/en/media/news/eiffage-accelerates-its-development-in-europe-in-energy-with-the-acquisition-of-the-kropman-group-in-the-netherlands\n\n\n\n\n\nKropman headquarters is located in the industrial periphery of Nijmegen. The building is composed of 2 areas, one in red brick and the other more recent is covered in sheet metal. The building is modern and well maintained. The parking lot is spacious and there are charging stations for electric cars.\nI am doing my internship in the software development team. The team is composed of 8 people. Gert-Jan is the team leader and he will be my tutor during my internship. We work in an open space with individual desks and the office is spacious and bright.\nThe atmosphere is relaxed and the team is very friendly. They are very welcoming and they are always ready to help. From time to time they send each other plastic ducks to disturb each others or ask for help. Dutch people are very direct and they don’t hesitate to say what they think.\nEvery member of the team is Dutch except for me. Everyone speaks English and they are very good at it. They are so used to it that sometimes they speak English to each other even if I am not there. It is normal for them and sometimes easier to switch languages.\nThe common working hours are from 8:00 am to 4:00 pm. The team has a flexible schedule, so I can arrive and leave when I want as long as I work 8 hours a day. Usually, I arrive at 9:00 am and leave at 5:00 pm.\nFor lunch we usually eat at our desk. Everyone brings their own lunch. The team doesn’t go out to eat and there is no canteen in the building. The company doesn’t provide a subsidy for lunch. The team has a tradition of ordering food on Friday. They switch between multiple restaurants. This Friday I tried a two typical Dutch dish called “kroket” and “frikandel”. They are fried snacks that are usually eaten with bread.\nI am very happy to be part of this team and I am looking forward to learning a lot from them. I will keep you informed of my progress in future articles. Thank you for reading."
   }
 ]

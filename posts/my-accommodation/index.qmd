@@ -1,0 +1,26 @@
+---
+title: "My accommodation"
+author: "Joshua JOURDAM"
+date: "2024-06-15"
+categories: [news]
+image: banner.jpg
+---
+
+Hello folks, today I will introduce you to my accommodation. First of all, I would like to thank Jan, my host for his warm welcome. I was very well received and I already feel at home. I met Jan in France, he is a friend of Christine, a close family member. He spent the beginning of the summer in Bretteville, the village where my parents live. We were able to organize a meeting to get to know each other. He was the one who recommended me to one of his friends for my internship at Kropman. He also offered me to stay at his house during this period. Jan is in France until mid-July, so I am alone in the house for the moment.
+
+::: {.columns}
+::: {.column width=63%}
+The house is part of the village of Vianen. The village has less than 2000 inhabitants. It is a very quiet and peaceful place. It is a typical Dutch house, with a sloping roof and red bricks. It is very spacious and bright. I have a bedroom with a double bed. The bathroom has a bathtub and a shower. The kitchen is large and well equipped. The living room is warm with a sofa and a television. There is a garden with a terrace where I can relax after work. It is a rare opportunity
+to be able to enjoy such comfort during my internship.
+:::
+::: {.column width=7%}
+:::
+::: {.column width=30%}
+![](house.jpg){height="230px"}
+:::
+:::
+
+The house is about a 20-minute drive from my workplace. I have to take the highway to get there. It is a moderately busy road at the moment because it is also the summer holiday period in the Netherlands. Usually there are no traffic jams in the morning but in the evening it is a bit crowded.
+I came to the Netherlands by car so that I don't have to take public transport to get to work. This saves me time and I don't have to be tied to timetables.
+
+I am very happy with my accommodation and I feel very good here. Thank you for reading and I'll see you soon for new articles.

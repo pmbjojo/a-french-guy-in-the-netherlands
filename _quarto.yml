@@ -1,19 +1,16 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "A French guy in the Netherlands"
   navbar:
     right:
       - about.qmd
-      - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+      - icon: linkedin
+        href: https://www.linkedin.com/in/joshua-jourdam-7617b3196
 format:
   html:
     theme: cosmo
     css: styles.css
-
-
-
+    lightbox: true

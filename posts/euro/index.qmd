@@ -1,0 +1,6 @@
+---
+title: "European Football Championship"
+author: "Joshua JOURDAM"
+date: "2024-07-14"
+categories: [news]
+---

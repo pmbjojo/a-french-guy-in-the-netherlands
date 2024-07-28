@@ -1,0 +1,6 @@
+---
+title: "The city of Nijmegen"
+author: "Joshua JOURDAM"
+date: "2024-07-13"
+categories: [news]
+---

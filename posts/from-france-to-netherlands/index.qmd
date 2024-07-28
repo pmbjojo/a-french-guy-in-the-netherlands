@@ -1,0 +1,40 @@
+---
+title: "From France to Netherlands"
+author: "Joshua JOURDAM"
+date: "2024-06-09"
+categories: [news]
+---
+
+::: {.columns}
+::: {.column}
+![](start.jpg){height="200px"}
+:::
+::: {.column}
+Hello everyone, today I want to share with you the story of my departure from France and my one-day car trip to the Netherlands.
+
+For those who don't know me, I invite you to consult my [profile](/about.html).
+
+I just finished what may be the last period of classes of my life last Friday. No time to rest since D-Day has arrived. This morning I set off for the Netherlands.
+:::
+:::
+
+::: {.columns}
+::: {.column width=70%}
+I left around 10:30 and my journey lasted almost 10 hours. The first part of the trip went smoothly. The Normandy roads are familiar. I stopped in the Rouen region to eat in a fast food restaurant. Rouen is a big city and its industrial outskirts are not really pleasant.
+
+I quickly got back on the road towards Lille. I was not used to the architecture of the north and seeing so many red brick buildings surprised me a little. It is an architecture that I find very pretty and that gives a certain charm to the region.
+:::
+::: {.column width=7%}
+:::
+::: {.column width=23%}
+![](journey.jpg){height="250px"}
+:::
+:::
+
+Crossing the French-Belgian border, the road signs changed, the names of the cities became different, and I really realized that I am leaving France for good. On this part of the journey, I was listening to the radio to follow the results of the legislative elections in France. It was complicated because most of the radios were in Flemish. I did not think that Belgium was so linguistically divided.
+
+Crossing Belgium is an experience in itself. Belgian highways are known for their variable quality. Finally, I reached the Dutch border. The transition is subtle but noticeable: the roads are impeccable, the cycle paths are omnipresent, and the organization of the cities and the countryside is impressive.
+
+The last part of the journey took me to my final destination, the place where I will live and work for the next 3 months. Fatigue is making itself felt. When I arrived around 9 pm, Kiki, the daughter of the owner of the accommodation, was there to welcome me. She was very kind and welcoming and she showed me around.
+
+I'll save this part of the trip for future posts. Thank you for following me in this first chapter of my adventure.

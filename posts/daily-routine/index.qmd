@@ -1,0 +1,6 @@
+---
+title: "Daily routine"
+author: "Joshua JOURDAM"
+date: "2024-07-28"
+categories: [news]
+---
