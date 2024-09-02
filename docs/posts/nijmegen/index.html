@@ -41,6 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -149,6 +152,51 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="sky.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="sky.jpg" class="quarto-figure quarto-figure-center figure-img" height="250"></a></p>
+</figure>
+</div>
+<p>Nestled in the eastern part of the Netherlands, Nijmegen is a city steeped in history, culture, and vibrant life. Often overshadowed by its more famous counterparts like Amsterdam and Rotterdam, Nijmegen offers a unique charm that is well worth exploring. From its ancient roots to its modern-day allure, here’s a deep dive into what makes Nijmegen a hidden gem.</p>
+<p>Nijmegen proudly holds the title of the oldest city in the Netherlands. Its history dates back over 2,000 years to when it was a Roman military camp known as Noviomagus. The city’s strategic location along the Waal River made it an important settlement for trade and military purposes. As you wander through the city, remnants of its Roman past can still be found, including sections of the ancient city wall and archaeological finds displayed in local museums.</p>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p>The city is surrounded by lush parks, forests, and nature reserves. The cityscape of Nijmegen is a fascinating blend of old and new. The medieval St.&nbsp;Steven’s Church (Stevenskerk), with its towering Gothic architecture, is a testament to the city’s rich historical tapestry. Climb the church tower for a panoramic view of the city and the surrounding countryside. Another must-see is the Valkhof Museum, situated on the site of a former Roman fortress, showcasing artifacts that tell the story of Nijmegen’s past.</p>
+</div><div class="column" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="kronenburgpark.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="kronenburgpark.jpg" class="quarto-figure quarto-figure-center figure-img" height="220"></a></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The first Monday after I arrived in the Netherlands, I went to register for a BSN (Burger Service Nummer) at the city hall. The process was quick, and the staff were friendly and helpful. The BSN was required for Kropman to process my internship contract. After completing the registration, I took the opportunity to wander around the city center.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="place.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="place.jpg" class="quarto-figure quarto-figure-center figure-img" height="250"></a></p>
+</figure>
+</div>
+<p>I was amazed by the beauty of the old buildings and the charm of the cobblestone streets. The city center is vibrant and bustling, with a mix of shops, cafes, and historic landmarks. I spent the afternoon wandering through the streets, taking in the sights and sounds of this enchanting city.</p>
+<p>Dutch gastronomy is a reflection of the country’s rich history and its openness to global influences. Traditional Dutch cuisine, known for its hearty and straightforward dishes such as stamppot (mashed potatoes with vegetables), bitterballen (fried meatballs), and herring, offers a comforting and rustic dining experience. However, the Netherlands, and Nijmegen in particular, has embraced a vibrant multicultural culinary landscape. This diversity in food options is largely due to the country’s history of trade, colonization, and immigration. As a result, the Dutch have developed a taste for international flavors, leading to a flourishing scene of foreign restaurants.</p>
+<p>One interesting cultural difference that stands out is the typical dinner time in the Netherlands compared to France. In the Netherlands, dinner is usually eaten earlier, with most families sitting down to eat between 5:30 PM and 7:00 PM. This early dinner time aligns with the country’s rhythm of starting the day early and winding down sooner in the evening.</p>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p>Nestled near a charming park, Indian Way offers a delightful escape into the flavors of India. This small yet vibrant restaurant is known for its warm ambiance and authentic Indian cuisine. Whether you’re a fan of spicy curries, savory biryanis, or the rich, creamy taste of butter chicken, Indian Way delivers a culinary experience that transports your taste buds straight to the heart of India.</p>
+</div><div class="column" style="width:30%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="indian.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="indian.jpg" class="quarto-figure quarto-figure-center figure-img" height="170"></a></p>
+</figure>
+</div>
+</div>
+</div>
+<p>For those with a penchant for variety, Orient Plaza offers a unique dining experience that spans the breadth of Asian cuisine. This large, bustling food court-style establishment features numerous stalls and restaurants, each specializing in different Asian dishes. From sushi and dim sum to Thai curries and Korean BBQ, Orient Plaza is a paradise for food lovers looking to explore a diverse range of flavors in one place.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="orient.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="orient.jpg" class="quarto-figure quarto-figure-center figure-img" height="250"></a></p>
+</figure>
+</div>
+<p>The lively atmosphere, with its vibrant decor and the hum of diners enjoying their meals, makes Orient Plaza a popular choice for group outings and casual dining. Whether you’re in the mood for a quick bite or a leisurely feast, you’ll find something to satisfy your cravings here.</p>
 
 
 
@@ -574,6 +622,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","loop":false,"openEffect":"zoom","descPosition":"bottom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

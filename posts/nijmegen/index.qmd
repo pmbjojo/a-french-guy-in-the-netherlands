@@ -4,3 +4,43 @@ author: "Joshua JOURDAM"
 date: "2024-07-13"
 categories: [news]
 ---
+
+![](sky.jpg){height="250px" fig-align="center"}
+
+Nestled in the eastern part of the Netherlands, Nijmegen is a city steeped in history, culture, and vibrant life. Often overshadowed by its more famous counterparts like Amsterdam and Rotterdam, Nijmegen offers a unique charm that is well worth exploring. From its ancient roots to its modern-day allure, here’s a deep dive into what makes Nijmegen a hidden gem.
+
+Nijmegen proudly holds the title of the oldest city in the Netherlands. Its history dates back over 2,000 years to when it was a Roman military camp known as Noviomagus. The city’s strategic location along the Waal River made it an important settlement for trade and military purposes. As you wander through the city, remnants of its Roman past can still be found, including sections of the ancient city wall and archaeological finds displayed in local museums.
+
+::: {.columns}
+::: {.column width=60%}
+The city is surrounded by lush parks, forests, and nature reserves. The cityscape of Nijmegen is a fascinating blend of old and new. The medieval St. Steven’s Church (Stevenskerk), with its towering Gothic architecture, is a testament to the city’s rich historical tapestry. Climb the church tower for a panoramic view of the city and the surrounding countryside. Another must-see is the Valkhof Museum, situated on the site of a former Roman fortress, showcasing artifacts that tell the story of Nijmegen’s past.
+:::
+::: {.column width=40%}
+![](kronenburgpark.jpg){height="220px" fig-align="center"}
+:::
+:::
+
+The first Monday after I arrived in the Netherlands, I went to register for a BSN (Burger Service Nummer) at the city hall. The process was quick, and the staff were friendly and helpful. The BSN was required for Kropman to process my internship contract. After completing the registration, I took the opportunity to wander around the city center. 
+
+![](place.jpg){height="250px" fig-align="center"}
+
+I was amazed by the beauty of the old buildings and the charm of the cobblestone streets. The city center is vibrant and bustling, with a mix of shops, cafes, and historic landmarks. I spent the afternoon wandering through the streets, taking in the sights and sounds of this enchanting city.
+
+Dutch gastronomy is a reflection of the country’s rich history and its openness to global influences. Traditional Dutch cuisine, known for its hearty and straightforward dishes such as stamppot (mashed potatoes with vegetables), bitterballen (fried meatballs), and herring, offers a comforting and rustic dining experience. However, the Netherlands, and Nijmegen in particular, has embraced a vibrant multicultural culinary landscape. This diversity in food options is largely due to the country's history of trade, colonization, and immigration. As a result, the Dutch have developed a taste for international flavors, leading to a flourishing scene of foreign restaurants.
+
+One interesting cultural difference that stands out is the typical dinner time in the Netherlands compared to France. In the Netherlands, dinner is usually eaten earlier, with most families sitting down to eat between 5:30 PM and 7:00 PM. This early dinner time aligns with the country’s rhythm of starting the day early and winding down sooner in the evening.
+
+::: {.columns}
+::: {.column width=70%}
+Nestled near a charming park, Indian Way offers a delightful escape into the flavors of India. This small yet vibrant restaurant is known for its warm ambiance and authentic Indian cuisine. Whether you’re a fan of spicy curries, savory biryanis, or the rich, creamy taste of butter chicken, Indian Way delivers a culinary experience that transports your taste buds straight to the heart of India.
+:::
+::: {.column width=30%}
+![](indian.jpg){height="170px" fig-align="center"}
+:::
+:::
+
+For those with a penchant for variety, Orient Plaza offers a unique dining experience that spans the breadth of Asian cuisine. This large, bustling food court-style establishment features numerous stalls and restaurants, each specializing in different Asian dishes. From sushi and dim sum to Thai curries and Korean BBQ, Orient Plaza is a paradise for food lovers looking to explore a diverse range of flavors in one place.
+
+![](orient.jpg){height="250px" fig-align="center"}
+
+The lively atmosphere, with its vibrant decor and the hum of diners enjoying their meals, makes Orient Plaza a popular choice for group outings and casual dining. Whether you’re in the mood for a quick bite or a leisurely feast, you’ll find something to satisfy your cravings here.

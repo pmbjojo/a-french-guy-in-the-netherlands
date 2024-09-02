@@ -5,12 +5,27 @@ date: "2024-06-30"
 categories: [news]
 ---
 
-The team is responsible for developing and maintaining the softwares used by the company's employees. The softwares are used to manage the company's projects, to manage the maintenance of the installations and to manage the company's resources in addition to the Enterprise Resource Planning (ERP) features.
+The software development team is responsible for developing and maintaining the softwares used by the company's employees. The softwares are used to manage the company's projects, to manage the maintenance of the installations and to manage the company's resources in addition to the Enterprise Resource Planning (ERP) features.
 
 The team uses the Agile methodology to manage the development of the softwares. Each developer maintain it's own backlog and the team meets every end of the day to discuss the progress of the tasks and to plan the work for next day.
 
-The team has a great CI/CD pipeline that allows to deploy the softwares quickly and safely. The team uses Azure DevOps to manage the source code and the pipelines.
+The team has a great CI/CD pipeline that allows to deploy the softwares quickly and safely. The team uses Azure DevOps to manage the source code, the backlog and the deployment pipelines of each project.
 
-All the applications are developed in C# with the .NET framework. The team uses the the ASP.NET framework with Blazor to develop the web applications.
+All the applications are developed in C# with the .NET framework. The team uses the the ASP.NET framework with Blazor and Entity Framework to develop the web applications.
 
-> Project example : contact app
+C# is a great language to develop applications because it is a strongly typed language. The .NET framework is a great framework because it is a mature framework with batteries included. It is maintained by Microsoft and it is a great framework to develop enterprise applications. Blazor allows to develop web applications with C# and to share the code between the client and the server. And Entity Framework is an ORM that allows to interact with the database easily within the C# code.
+
+Before this internship, I had never worked with those technologies. I already had a background in web applications development with JavaScript in my previous experience. I took an online training during my first week to learn the basics. After this I started working on small tasks to learn how the applications are developed in the company. 
+
+This may all be gibberish to you so here is an example of an application I have been working on so far.
+
+![](/contact.png)
+
+The contact application is used to manage the company's contacts. It allows to search for collaborators and display basic informations. For this application I fixed a performance issue and I added a new feature. 
+
+The application was really slow sometimes because it needs to render a lot of contacts. Blazor uses a components model to display elements. The issue here was when you search for a contact, the application was rendering only the filtered contacts, this cause a lot of overhead because the difference between two states is huge and the rendering was slow. I fixed this by always rendering every contacts and hidden the contacts that are not in the search results with css. 
+
+This application display the status of employees at the time. The status can be absent, busy or available. The application was lacking the date and time of the comeback of the absent and busy employees. The application already had access of the teams calendar and the calendars from the ERP system. I added a new feature that allows to display the date and time of the comeback of the absent and busy employees. Due to GPRD I had to make sure that the date and time of the comeback didn't leak any personal information (sick leave, vacation, ...). To face this I've chosen to display only the date and time of comeback only for the current day. This feature is really useful because it allows to know when a collaborator will be back and to plan the work accordingly.
+
+Thank you once again for reading my blog. See you next week!
+

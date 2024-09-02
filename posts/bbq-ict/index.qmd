@@ -1,0 +1,20 @@
+---
+title: "BBQ ICT"
+author: "Joshua JOURDAM"
+date: "2024-08-04"
+categories: [news]
+---
+
+ICT teams
+- I : Innovation
+- C : Communication
+- T : Technology
+Poster
+Joke
+Chez le ROI ICT
+Every year
+BBQ meat, music, and drinks
+
+
+![](bbq.jpg)
+

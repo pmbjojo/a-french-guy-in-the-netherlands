@@ -4,3 +4,10 @@ author: "Joshua JOURDAM"
 date: "2024-07-28"
 categories: [news]
 ---
+
+Now that it has been a few weeks since I started my internship, I have a good idea of what my daily routine looks like. I thought I would share it with you.
+
+I usually start my day at 9am. I take the time to check my emails and to plan my day. Usually, I work on a single project, so I know what I have to do.  I usually work on a feature or a bug fix. I take the time to understand the requirements. Then, I start coding and finally before pushing my code, I test it.
+
+The members team eats at any time after 12pm. We don't have a cafeteria in the office, so we stay at our desk. Here, this is not really a discussion time, everyone just eats on his side. On Friday we always order lunch from a restaurant nearby. Delivery services are very developed in the Netherlands, it's impressive. You can order anything at any time from a restaurant or a supermarket.
+
