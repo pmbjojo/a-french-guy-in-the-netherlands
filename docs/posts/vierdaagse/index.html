@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-99.9.9">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -41,6 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -153,10 +156,13 @@ ul.task-list li input[type="checkbox"] {
 <p>The event runs for four days, typically starting on a Tuesday and ending on a Friday. Participants choose a daily walking distance—30 km, 40 km, or 50 km based on their age, gender, and prior walking experience. Each day takes them through different scenic routes around Nijmegen. The aim of the event is simple: finish the required distance each day to earn the Vierdaagse Cross medal, a symbol of resilience and accomplishment.</p>
 <p>One of the most striking aspects of the Vierdaagse is the diversity of participants. Each year, around 45,000 walkers take part, including civilians of all ages and military personnel. The presence of soldiers is a hallmark of the event, and many march in full uniform with heavy packs, representing various international military forces.</p>
 <p>The event isn’t just about walking, it’s also about community and celebration. Along the routes, thousands of people line the streets to cheer on the participants. The walkers often wear costumes or distinctive outfits. Spectators hand out snacks, drinks, and flowers to motivate the walkers, and music fills the air with bands and DJson the side.</p>
+<p><a href="walk.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="walk.jpg" class="img-fluid"></a></p>
 <p>A remarkable element of the Vierdaagse is the military participation and the unique infrastructure built just for the event. On Thursday evening, in Cuijk, a military base with tents buzzes with activity. Walkers pass through, and one of the highlights is the military-built bridge across the Maas River. This bridge, constructed especially for the Vierdaagse, connects walkers into Cuijk and is disassembled by the military on Friday evening.</p>
 <p>I had the chance to be part of this incredible event, and while I didn’t walk, my time in Cuijk and Vianen gave me a taste of the Vierdaagse spirit.</p>
 <p>On Thursday evening, I visited Cuijk and stayed at the military base, surrounded by tents and saw a parachute landing on the new just build bridge.</p>
+<p><a href="./parachute.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="./parachute.jpg" class="img-fluid"></a></p>
 <p>Friday saw me spending time in both Vianen and Cuijk with my host Jan.&nbsp;Though the walk through Vianen was quieter due to the reduced kilometers (a heatwave had forced the organizers to shorten the distance for safety), the atmosphere was still lively. I met up with Jan daughter, her boyfriend, and their friends and child. We drank beers and cheered for the walkers.</p>
+<p><a href="./bridge.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="./bridge.jpg" class="img-fluid"></a></p>
 <p>The final stretch of the Vierdaagse leads the walkers back to Nijmegen on Friday, where they are greeted by a massive celebration. Streets overflow with around 1.5 million spectators, and the entire city turns into one giant festival. While I didn’t attend the big party in Nijmegen, I heard stories of the atmosphere.</p>
 <ul>
 <li><a href="https://www.4daagse.nl/en" class="uri">https://www.4daagse.nl/en</a></li>
@@ -587,6 +593,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","loop":false,"selector":".lightbox","descPosition":"bottom","openEffect":"zoom"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
