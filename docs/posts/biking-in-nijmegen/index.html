@@ -41,6 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -154,6 +157,7 @@ ul.task-list li input[type="checkbox"] {
 <p>One notable stop was the home of the oldest beermakers in Nijmegen, or perhaps even the Netherlands. Although I couldn’t quite recall the exact details, the historic significance of the place added an intriguing layer to the journey.</p>
 <p>Nijmegen is also home to some beautiful parks and historical sites. Valkhof Park features the remains of the medieval Valkhof Chapel, which offers stunning views of the city and the Rhine River. Another notable stop was Kronenburgerpark, where I came across the impressive Kronenburger Tower. This historic tower, part of Nijmegen’s old city walls, stands as a testament to the city’s medieval past.</p>
 <p>I encountered an unexpected urban challenge. Nijmegen (maybe it the case in every dutch city), has a significant issue with bike parking. At various points throughout the city, I observed clusters of bikes parked haphazardly, sometimes resembling a makeshift waste disposal site. The sheer number of bikes, often crammed together in crowded areas, was overwhelming and created an impression of disorder.</p>
+<p><a href="bikes.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="bikes.jpg" class="img-fluid"></a></p>
 <p>I highly recommend taking the time to explore Nijmegen by bike. It’s a fantastic way to appreciate both the natural beauty and historical significance of the city.</p>
 
 
@@ -580,6 +584,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","loop":false,"descPosition":"bottom","closeEffect":"zoom"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

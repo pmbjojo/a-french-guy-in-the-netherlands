@@ -41,6 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -151,25 +154,27 @@ ul.task-list li input[type="checkbox"] {
 
 <p>During my three-month internship as a software developer in the Netherlands, I had the opportunity to dive deep into two significant projects.</p>
 <p>Initially, I focused on smaller tasks, which were essential in understanding the team’s workflow and the development environment. These early assignments were a great way to familiarize myself with the codebase and the team’s expectations, laying a solid foundation for the more complex projects that followed.</p>
-<section id="revamping-the-request-tool-application" class="level2">
-<h2 class="anchored" data-anchor-id="revamping-the-request-tool-application">Revamping the Request Tool Application</h2>
 <p>One of the major projects I tackled was the rework of the Request Tool application. This tool manages requests through a multi-step approval process, involving several stakeholders:</p>
 <ul>
 <li>Requestor: Initiates the request.</li>
 <li>Manager, Coordinator and Director: Approve or reject the request.</li>
 <li>Storekeeper and Buyer: Handle the purchasing process.</li>
 </ul>
+<p><a href="./requests.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="./requests.png" class="img-fluid"></a></p>
 <p>To modernize the application, I revamped both the logic and data layers. This extensive update required running database migrations using Entity Framework. Given the scope of the changes, I also wrote raw SQL queries to ensure that the application’s core functionality remained intact and efficient.</p>
 <p>One of the key enhancements I introduced was a timeline feature for each request. This timeline allows users to easily track the current step and view the progression of the request through its various stages. By providing a visual representation of the request’s journey, this feature adds clarity and helps stakeholders stay informed about the status of their requests.</p>
-</section>
-<section id="developing-the-new-signoff-list-application" class="level2">
-<h2 class="anchored" data-anchor-id="developing-the-new-signoff-list-application">Developing the new Signoff List Application</h2>
-<p>Another major project was developing the Signoff List application, which needed to have an Eiffage theme to ensure it could be shared across various companies within the group, including those beyond my own company, Kropman. The application was designed to streamline the signoff process and featured:</p>
-<p>Document URL or SharePoint Link: Allows users to easily link to relevant documents or resources. Deadlines and Approvals: Tracks deadlines and manages approval statuses. Group Handling: Simplifies the creation and reuse of signoff groups to enhance efficiency. I started with Bootstrap for the design but later transitioned to MudBlazor for a more refined and user-friendly interface. MudBlazor’s components offered a cleaner, more modern look and improved usability, making the application more accessible and visually appealing.</p>
+<p><a href="./request_timeline.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="./request_timeline.png" class="img-fluid"></a></p>
+<p>Another significant project was developing the Signoff List application, which needed to have an Eiffage theme to ensure it could be shared across various companies within the group, including those beyond my own company, Kropman. The application was designed to streamline the signoff process and featured:</p>
+<ul>
+<li>Document URL or SharePoint Link: Allows users to easily link to relevant documents or resources.</li>
+<li>Deadlines and Approvals: Tracks deadlines and manages approval statuses.</li>
+<li>Group Handling: Simplifies the creation and reuse of signoff groups to enhance efficiency.</li>
+</ul>
+<p><a href="documents.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="documents.png" class="img-fluid"></a></p>
+<p>I started with Bootstrap for the design but later transitioned to MudBlazor for a more refined and user-friendly interface. MudBlazor’s components offered a cleaner, more modern look and improved usability, making the application more accessible and visually appealing.</p>
 <p>As I look back on these projects, I’m grateful for the opportunity to contribute meaningfully and develop solutions that enhance efficiency and usability. This experience has been invaluable, and I’m excited to apply the skills and insights gained to future projects.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -593,6 +598,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","loop":false,"selector":".lightbox","descPosition":"bottom"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

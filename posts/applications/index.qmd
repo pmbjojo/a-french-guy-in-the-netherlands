@@ -9,25 +9,28 @@ During my three-month internship as a software developer in the Netherlands, I h
 
 Initially, I focused on smaller tasks, which were essential in understanding the team's workflow and the development environment. These early assignments were a great way to familiarize myself with the codebase and the team's expectations, laying a solid foundation for the more complex projects that followed.
 
-## Revamping the Request Tool Application
-
 One of the major projects I tackled was the rework of the Request Tool application. This tool manages requests through a multi-step approval process, involving several stakeholders:
 
 - Requestor: Initiates the request.
 - Manager, Coordinator and Director: Approve or reject the request.
 - Storekeeper and Buyer: Handle the purchasing process.
 
+![](./requests.png)
+
 To modernize the application, I revamped both the logic and data layers. This extensive update required running database migrations using Entity Framework. Given the scope of the changes, I also wrote raw SQL queries to ensure that the application’s core functionality remained intact and efficient.
 
 One of the key enhancements I introduced was a timeline feature for each request. This timeline allows users to easily track the current step and view the progression of the request through its various stages. By providing a visual representation of the request's journey, this feature adds clarity and helps stakeholders stay informed about the status of their requests.
 
-## Developing the new Signoff List Application
+![](./request_timeline.png)
 
-Another major project was developing the Signoff List application, which needed to have an Eiffage theme to ensure it could be shared across various companies within the group, including those beyond my own company, Kropman. The application was designed to streamline the signoff process and featured:
+Another significant project was developing the Signoff List application, which needed to have an Eiffage theme to ensure it could be shared across various companies within the group, including those beyond my own company, Kropman. The application was designed to streamline the signoff process and featured:
 
-Document URL or SharePoint Link: Allows users to easily link to relevant documents or resources.
-Deadlines and Approvals: Tracks deadlines and manages approval statuses.
-Group Handling: Simplifies the creation and reuse of signoff groups to enhance efficiency.
+- Document URL or SharePoint Link: Allows users to easily link to relevant documents or resources.
+- Deadlines and Approvals: Tracks deadlines and manages approval statuses.
+- Group Handling: Simplifies the creation and reuse of signoff groups to enhance efficiency.
+
+![](documents.png)
+
 I started with Bootstrap for the design but later transitioned to MudBlazor for a more refined and user-friendly interface. MudBlazor’s components offered a cleaner, more modern look and improved usability, making the application more accessible and visually appealing.
 
 As I look back on these projects, I’m grateful for the opportunity to contribute meaningfully and develop solutions that enhance efficiency and usability. This experience has been invaluable, and I’m excited to apply the skills and insights gained to future projects.
