@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-99.9.9">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -41,6 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -149,13 +152,18 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>The team is responsible for developing and maintaining the softwares used by the company’s employees. The softwares are used to manage the company’s projects, to manage the maintenance of the installations and to manage the company’s resources in addition to the Enterprise Resource Planning (ERP) features.</p>
+<p>The software development team is responsible for developing and maintaining the softwares used by the company’s employees. The softwares are used to manage the company’s projects, to manage the maintenance of the installations and to manage the company’s resources in addition to the Enterprise Resource Planning (ERP) features.</p>
 <p>The team uses the Agile methodology to manage the development of the softwares. Each developer maintain it’s own backlog and the team meets every end of the day to discuss the progress of the tasks and to plan the work for next day.</p>
-<p>The team has a great CI/CD pipeline that allows to deploy the softwares quickly and safely. The team uses Azure DevOps to manage the source code and the pipelines.</p>
-<p>All the applications are developed in C# with the .NET framework. The team uses the the ASP.NET framework with Blazor to develop the web applications.</p>
-<blockquote class="blockquote">
-<p>Project example : contact app</p>
-</blockquote>
+<p>The team has a great CI/CD pipeline that allows to deploy the softwares quickly and safely. The team uses Azure DevOps to manage the source code, the backlog and the deployment pipelines of each project.</p>
+<p>All the applications are developed in C# with the .NET framework. The team uses the the ASP.NET framework with Blazor and Entity Framework to develop the web applications.</p>
+<p>C# is a great language to develop applications because it is a strongly typed language. The .NET framework is a great framework because it is a mature framework with batteries included. It is maintained by Microsoft and it is a great framework to develop enterprise applications. Blazor allows to develop web applications with C# and to share the code between the client and the server. And Entity Framework is an ORM that allows to interact with the database easily within the C# code.</p>
+<p>Before this internship, I had never worked with those technologies. I already had a background in web applications development with JavaScript in my previous experience. I took an online training during my first week to learn the basics. After this I started working on small tasks to learn how the applications are developed in the company.</p>
+<p>This may all be gibberish to you so here is an example of an application I have been working on so far.</p>
+<p><a href="../..\contact.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="../..\contact.png" class="img-fluid"></a></p>
+<p>The contact application is used to manage the company’s contacts. It allows to search for collaborators and display basic informations. For this application I fixed a performance issue and I added a new feature.</p>
+<p>The application was really slow sometimes because it needs to render a lot of contacts. Blazor uses a components model to display elements. The issue here was when you search for a contact, the application was rendering only the filtered contacts, this cause a lot of overhead because the difference between two states is huge and the rendering was slow. I fixed this by always rendering every contacts and hidden the contacts that are not in the search results with css.</p>
+<p>This application display the status of employees at the time. The status can be absent, busy or available. The application was lacking the date and time of the comeback of the absent and busy employees. The application already had access of the teams calendar and the calendars from the ERP system. I added a new feature that allows to display the date and time of the comeback of the absent and busy employees. Due to GPRD I had to make sure that the date and time of the comeback didn’t leak any personal information (sick leave, vacation, …). To face this I’ve chosen to display only the date and time of comeback only for the current day. This feature is really useful because it allows to know when a collaborator will be back and to plan the work accordingly.</p>
+<p>Thank you once again for reading my blog. See you next week!</p>
 
 
 
@@ -581,6 +589,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"loop":false,"descPosition":"bottom","openEffect":"zoom","closeEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

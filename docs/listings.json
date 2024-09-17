@@ -2,6 +2,10 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/departure/index.html",
+      "/posts/biking-in-nijmegen/index.html",
+      "/posts/applications/index.html",
+      "/posts/bbq-ict/index.html",
       "/posts/daily-routine/index.html",
       "/posts/vierdaagse/index.html",
       "/posts/euro/index.html",

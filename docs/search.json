@@ -4,7 +4,7 @@
     "href": "posts/vierdaagse/index.html",
     "title": "Vierdaagse",
     "section": "",
-    "text": "https://www.4daagse.nl/en https://www.vierdaagsefeesten.nl/en/"
+    "text": "https://www.4daagse.nl/en https://www.vierdaagsefeesten.nl/en/\nThe Vierdaagse, officially called the International Four Days Marches Nijmegen, is an annual multi-day walking event held in and around Nijmegen. It is one of the largest walking events in the world, attracting more than 45 000 participants. The Vierdaagse was first held in 1909 and has since grown into a large international event, with a festive atmosphere that includes concerts, parties, and celebrations in Nijmegen.\nThere is multiple key to participate to the event :\n\nDuration: The event lasts four days, during which participants walk a set distance each day.\nDistances: Participants can choose to walk 30 km, 40 km, or 50 km per day, depending on age, gender, and personal preference.\nWhen: It typically takes place in mid-July.\nParticipants: The event attracts both military personnel and civilians. Military participants often walk in uniform and with gear, making it a distinctive feature of the event.\nGoal: The aim is to complete the four-day challenge and receive a Vierdaagse Cross (a medal awarded to those who finish successfully).\nmilitary\nparachute\nbridge build\nvianen\nnot so much people, the kilometere of the run have been reduced because of the heat\nbigbig party in nijmegen how many ? but i didn’t went"
   },
   {
     "objectID": "posts/my-accommodation/index.html",
@@ -25,14 +25,28 @@
     "href": "posts/development/index.html",
     "title": "Development and project management",
     "section": "",
-    "text": "The team is responsible for developing and maintaining the softwares used by the company’s employees. The softwares are used to manage the company’s projects, to manage the maintenance of the installations and to manage the company’s resources in addition to the Enterprise Resource Planning (ERP) features.\nThe team uses the Agile methodology to manage the development of the softwares. Each developer maintain it’s own backlog and the team meets every end of the day to discuss the progress of the tasks and to plan the work for next day.\nThe team has a great CI/CD pipeline that allows to deploy the softwares quickly and safely. The team uses Azure DevOps to manage the source code and the pipelines.\nAll the applications are developed in C# with the .NET framework. The team uses the the ASP.NET framework with Blazor to develop the web applications.\n\nProject example : contact app"
+    "text": "The software development team is responsible for developing and maintaining the softwares used by the company’s employees. The softwares are used to manage the company’s projects, to manage the maintenance of the installations and to manage the company’s resources in addition to the Enterprise Resource Planning (ERP) features.\nThe team uses the Agile methodology to manage the development of the softwares. Each developer maintain it’s own backlog and the team meets every end of the day to discuss the progress of the tasks and to plan the work for next day.\nThe team has a great CI/CD pipeline that allows to deploy the softwares quickly and safely. The team uses Azure DevOps to manage the source code, the backlog and the deployment pipelines of each project.\nAll the applications are developed in C# with the .NET framework. The team uses the the ASP.NET framework with Blazor and Entity Framework to develop the web applications.\nC# is a great language to develop applications because it is a strongly typed language. The .NET framework is a great framework because it is a mature framework with batteries included. It is maintained by Microsoft and it is a great framework to develop enterprise applications. Blazor allows to develop web applications with C# and to share the code between the client and the server. And Entity Framework is an ORM that allows to interact with the database easily within the C# code.\nBefore this internship, I had never worked with those technologies. I already had a background in web applications development with JavaScript in my previous experience. I took an online training during my first week to learn the basics. After this I started working on small tasks to learn how the applications are developed in the company.\nThis may all be gibberish to you so here is an example of an application I have been working on so far.\n\nThe contact application is used to manage the company’s contacts. It allows to search for collaborators and display basic informations. For this application I fixed a performance issue and I added a new feature.\nThe application was really slow sometimes because it needs to render a lot of contacts. Blazor uses a components model to display elements. The issue here was when you search for a contact, the application was rendering only the filtered contacts, this cause a lot of overhead because the difference between two states is huge and the rendering was slow. I fixed this by always rendering every contacts and hidden the contacts that are not in the search results with css.\nThis application display the status of employees at the time. The status can be absent, busy or available. The application was lacking the date and time of the comeback of the absent and busy employees. The application already had access of the teams calendar and the calendars from the ERP system. I added a new feature that allows to display the date and time of the comeback of the absent and busy employees. Due to GPRD I had to make sure that the date and time of the comeback didn’t leak any personal information (sick leave, vacation, …). To face this I’ve chosen to display only the date and time of comeback only for the current day. This feature is really useful because it allows to know when a collaborator will be back and to plan the work accordingly.\nThank you once again for reading my blog. See you next week!"
+  },
+  {
+    "objectID": "posts/daily-routine/index.html",
+    "href": "posts/daily-routine/index.html",
+    "title": "Daily routine",
+    "section": "",
+    "text": "Now that it has been a few weeks since I started my internship, I have a good idea of what my daily routine looks like. I thought I would share it with you.\nI usually start my day at 9am. I take the time to check my emails and to plan my day. Usually, I work on a single project, so I know what I have to do. I usually work on a feature or a bug fix. I take the time to understand the requirements. Then, I start coding and finally before pushing my code, I test it.\nThe members team eats at any time after 12pm. We don’t have a cafeteria in the office, so we stay at our desk. Here, this is not really a discussion time, everyone just eats on his side. On Friday we always order lunch from a restaurant nearby. Delivery services are very developed in the Netherlands, it’s impressive. You can order anything at any time from a restaurant or a supermarket."
+  },
+  {
+    "objectID": "posts/bbq-ict/index.html",
+    "href": "posts/bbq-ict/index.html",
+    "title": "BBQ ICT",
+    "section": "",
+    "text": "ICT teams - I : Innovation - C : Communication - T : Technology Poster Joke Chez le ROI ICT Every year BBQ meat, music, and drinks"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "A French guy in the Netherlands",
     "section": "",
-    "text": "Daily routine\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 28, 2024\n\n\nJoshua JOURDAM\n\n\n\n\n\n\n\n\n\n\n\n\nVierdaagse\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 21, 2024\n\n\nJoshua JOURDAM\n\n\n\n\n\n\n\n\n\n\n\n\nEuropean Football Championship\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 14, 2024\n\n\nJoshua JOURDAM\n\n\n\n\n\n\n\n\n\n\n\n\nThe city of Nijmegen\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 13, 2024\n\n\nJoshua JOURDAM\n\n\n\n\n\n\n\n\n\n\n\n\nDevelopment and project management\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJun 30, 2024\n\n\nJoshua JOURDAM\n\n\n\n\n\n\n\n\n\n\n\n\nKropman and the software development team\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJun 23, 2024\n\n\nJoshua JOURDAM\n\n\n\n\n\n\n\n\n\n\n\n\nMy accommodation\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJun 15, 2024\n\n\nJoshua JOURDAM\n\n\n\n\n\n\n\n\n\n\n\n\nFrom France to Netherlands\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJun 9, 2024\n\n\nJoshua JOURDAM\n\n\n\n\n\n\nNo matching items"
+    "text": "Departure\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nAug 25, 2024\n\n\nJoshua JOURDAM\n\n\n\n\n\n\n\n\n\n\n\n\nBiking in Nijmegen\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nAug 18, 2024\n\n\nJoshua JOURDAM\n\n\n\n\n\n\n\n\n\n\n\n\nApplications\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nAug 11, 2024\n\n\nJoshua JOURDAM\n\n\n\n\n\n\n\n\n\n\n\n\nBBQ ICT\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nAug 4, 2024\n\n\nJoshua JOURDAM\n\n\n\n\n\n\n\n\n\n\n\n\nDaily routine\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 28, 2024\n\n\nJoshua JOURDAM\n\n\n\n\n\n\n\n\n\n\n\n\nVierdaagse\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 21, 2024\n\n\nJoshua JOURDAM\n\n\n\n\n\n\n\n\n\n\n\n\nEuropean Football Championship\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 14, 2024\n\n\nJoshua JOURDAM\n\n\n\n\n\n\n\n\n\n\n\n\nThe city of Nijmegen\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 13, 2024\n\n\nJoshua JOURDAM\n\n\n\n\n\n\n\n\n\n\n\n\nDevelopment and project management\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJun 30, 2024\n\n\nJoshua JOURDAM\n\n\n\n\n\n\n\n\n\n\n\n\nKropman and the software development team\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJun 23, 2024\n\n\nJoshua JOURDAM\n\n\n\n\n\n\n\n\n\n\n\n\nMy accommodation\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJun 15, 2024\n\n\nJoshua JOURDAM\n\n\n\n\n\n\n\n\n\n\n\n\nFrom France to Netherlands\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJun 9, 2024\n\n\nJoshua JOURDAM\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -40,6 +54,20 @@
     "title": "About",
     "section": "",
     "text": "Hello, my name is Joshua, I am 23 years old and I am an apprentice engineer at the ESEO in Angers. I finished my 3 years of collaboration with the company SDEL Contrôle Commande in May to do my internship abroad. The aim of this blog is to allow you to follow my experience for 3 months in the Netherlands.\nI joined the software development team of the Kropman company for the summer period. This blog will allow me to share my feelings as well as my professional and extra-professional experiences. Thank you for your support and enjoy your discovery."
+  },
+  {
+    "objectID": "posts/biking-in-nijmegen/index.html",
+    "href": "posts/biking-in-nijmegen/index.html",
+    "title": "Biking in Nijmegen",
+    "section": "",
+    "text": "Oldest beermakers\nChurch\nGarbage bikes\nWay throught the forest"
+  },
+  {
+    "objectID": "posts/departure/index.html",
+    "href": "posts/departure/index.html",
+    "title": "Departure",
+    "section": "",
+    "text": "Leaved the 23 of august\nBilan\nPoster / T-shirt\nJob offer\nWay back to France\nPreparation of final report and presentation"
   },
   {
     "objectID": "posts/euro/index.html",
