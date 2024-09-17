@@ -41,9 +41,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -153,7 +150,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>I had the chance to experience something special this week: the annual ICT department BBQ. The mastermind behind this lively event was Dennis, our team leader, who crafted an invitation card and poster with a playful twist—“Chez le ROI ICT.” I could imagine that such a light-hearted joke might not fly as easily back in France, but here in the Netherlands, it was met with enthusiasm and laughter.</p>
-<p><a href="bbq.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="bbq.jpg" class="img-fluid"></a></p>
 <p>The BBQ brought together the three teams from our department: Innovation, Communication, and Technology. I met new people, it was quite easy, the Dutch are very direct which is really welcome as an intern.</p>
 <p>We kicked off the festivities right after work at around 5 PM, and the fun continued well into the night, wrapping up around midnight. It was a perfect blend of delicious food, engaging conversation, and the kind of camaraderie that only comes from shared experiences.</p>
 <p>Looking back, this BBQ was more than just a meal; it was a cultural experience that added a memorable highlight to my internship.</p>
@@ -582,38 +578,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","loop":false,"descPosition":"bottom","closeEffect":"zoom"});
-(function() {
-  let previousOnload = window.onload;
-  window.onload = () => {
-    if (previousOnload) {
-      previousOnload();
-    }
-    lightboxQuarto.on('slide_before_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      const href = trigger.getAttribute('href');
-      if (href !== null) {
-        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-        if (imgEl !== null) {
-          const srcAttr = imgEl.getAttribute("src");
-          if (srcAttr && srcAttr.startsWith("data:")) {
-            slideConfig.href = srcAttr;
-          }
-        }
-      } 
-    });
-  
-    lightboxQuarto.on('slide_after_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(slideNode);
-      }
-    });
-  
-  };
-  
-})();
-          </script>
 
 
 

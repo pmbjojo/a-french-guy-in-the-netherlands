@@ -19,7 +19,7 @@ Before this internship, I had never worked with those technologies. I already ha
 
 This may all be gibberish to you so here is an example of an application I have been working on so far.
 
-![](/contact.png)
+![](./contact.png)
 
 The contact application is used to manage the company's contacts. It allows to search for collaborators and display basic informations. For this application I fixed a performance issue and I added a new feature. 
 

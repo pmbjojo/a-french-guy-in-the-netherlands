@@ -159,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
 <p>C# is a great language to develop applications because it is a strongly typed language. The .NET framework is a great framework because it is a mature framework with batteries included. It is maintained by Microsoft and it is a great framework to develop enterprise applications. Blazor allows to develop web applications with C# and to share the code between the client and the server. And Entity Framework is an ORM that allows to interact with the database easily within the C# code.</p>
 <p>Before this internship, I had never worked with those technologies. I already had a background in web applications development with JavaScript in my previous experience. I took an online training during my first week to learn the basics. After this I started working on small tasks to learn how the applications are developed in the company.</p>
 <p>This may all be gibberish to you so here is an example of an application I have been working on so far.</p>
-<p><a href="../../contact.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="../../contact.png" class="img-fluid"></a></p>
+<p><a href="./contact.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="./contact.png" class="img-fluid"></a></p>
 <p>The contact application is used to manage the company’s contacts. It allows to search for collaborators and display basic informations. For this application I fixed a performance issue and I added a new feature.</p>
 <p>The application was really slow sometimes because it needs to render a lot of contacts. Blazor uses a components model to display elements. The issue here was when you search for a contact, the application was rendering only the filtered contacts, this cause a lot of overhead because the difference between two states is huge and the rendering was slow. I fixed this by always rendering every contacts and hidden the contacts that are not in the search results with css.</p>
 <p>This application display the status of employees at the time. The status can be absent, busy or available. The application was lacking the date and time of the comeback of the absent and busy employees. The application already had access of the teams calendar and the calendars from the ERP system. I added a new feature that allows to display the date and time of the comeback of the absent and busy employees. Due to GPRD I had to make sure that the date and time of the comeback didn’t leak any personal information (sick leave, vacation, …). To face this I’ve chosen to display only the date and time of comeback only for the current day. This feature is really useful because it allows to know when a collaborator will be back and to plan the work accordingly.</p>
@@ -589,7 +589,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"selector":".lightbox","openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","loop":false,"selector":".lightbox","openEffect":"zoom","closeEffect":"zoom"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {
