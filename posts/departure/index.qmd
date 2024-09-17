@@ -5,9 +5,16 @@ date: "2024-08-25"
 categories: [news]
 ---
 
-- Leaved the 23 of august
-- Bilan
-- Poster / T-shirt
-- Job offer
-- Way back to France
-- Preparation of final report and presentation
+As of August 23rd, I officially wrapped up my three-month internship in the Netherlands and began the journey back to France.
+
+Reflecting on my time in the Netherlands, The internship was not only a professional milestone but also a deeply enriching personal journey. From navigating a new culture to tackling complex projects, every moment has contributed to a significant period of growth.
+
+During my time here, I saw notable improvements in my English language skills, gaining both confidence and fluency. Professionally, I expanded my technical expertise by learning C# and working with the .NET platform, which has added valuable skills to my programming toolkit.
+
+As a gesture of appreciation, Kropman gifted me a poster and a T-shirt, both of which will be cherished mementos of my time with the company. Additionally, I was thrilled to receive a job offer from Kropman, a testament to the positive impact of my work and the meaningful connections made during the internship.
+
+One of the most rewarding aspects of this internship was the chance to meet and work with amazing people. Each person I interacted with contributed to a rich environment that made my experience truly amazing.
+
+A heartfelt thank you goes to Jan, my host during this internship. Jan’s support and friendship were invaluable, and I am grateful for his guidance and hospitality. He will remain a close friend, and I look forward to staying connected in the future.
+
+As I conclude this chapter and head back to France, it’s been an incredible experience, marked by personal growth, professional development, and unforgettable memories.
