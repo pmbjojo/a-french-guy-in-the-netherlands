@@ -8,7 +8,7 @@ The website documents my time living in the Netherlands during my international 
 It highlights key aspects of the experience, such as:
 
 * Cultural immersion 🇳🇱
-* Daily life and adaptation as a French expat 🇫🇷
+* Daily life and adaptation as a French intern 🇫🇷
 * Personal growth and international perspective 🌍
 
 It’s not a technical project or collaborative repo — just a personal blog, written primarily for academic purposes but shared publicly in the spirit of openness.
