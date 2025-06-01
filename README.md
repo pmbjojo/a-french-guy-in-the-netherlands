@@ -1,4 +1,4 @@
-# 🇫🇷 A French Guy in the Netherlands 🇳🇱
+# A French Guy in the Netherlands
 
 This repository hosts a personal website I created as part of my academic program at [ESEO](https://www.eseo.fr/), my engineering school in France.
 
@@ -7,8 +7,8 @@ This repository hosts a personal website I created as part of my academic progra
 The website documents my time living in the Netherlands during my international mobility.
 It highlights key aspects of the experience, such as:
 
-* Cultural immersion 🇳🇱
-* Daily life and adaptation as a French intern 🇫🇷
+* Cultural immersion
+* Daily life and adaptation as a French intern
 * Personal growth and international perspective 🌍
 
 It’s not a technical project or collaborative repo — just a personal blog, written primarily for academic purposes but shared publicly in the spirit of openness.
